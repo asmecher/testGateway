@@ -51,6 +51,7 @@ class TestGatewayPlugin extends GatewayPlugin {
 	 * @param $request PKPRequest Request object.
 	 */
 	function fetch($args, $request) {
+		if (!$this->getEnabled()) return false;
 		echo 'This request is being served by the test gateway plugin.';
 		return true;
 	}
