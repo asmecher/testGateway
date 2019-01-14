@@ -3,8 +3,8 @@
 /**
  * @file plugins/gateways/testGateway/TestGatewayPlugin.inc.php
  *
- * Copyright (c) 2014-2015 Simon Fraser University Library
- * Copyright (c) 2003-2015 John Willinsky
+ * Copyright (c) 2014-2019 Simon Fraser University
+ * Copyright (c) 2003-2019 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class TestGatewayPlugin
@@ -57,4 +57,3 @@ class TestGatewayPlugin extends GatewayPlugin {
 	}
 }
 
-?>
